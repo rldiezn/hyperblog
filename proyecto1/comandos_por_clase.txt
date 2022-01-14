@@ -1,0 +1,11 @@
+Comandos Utilizados en la primera clase
+
+1-)Inicializar un reporcitorio: git init
+2-)Agregar archivo al stage: git add historia.txt
+3-)Remover archivo del stage: git rm --cached historia.txt
+4-)Agregar archivo al stage: git add historia.txt
+5-)ver variables de configuracion de git: git config --list
+6-)ver ubicación de archivo de configuracion de git: git config --list --show-origin
+7-)configurar nombre en variables de configuracion de git: git config --global user.name ="Ricardo Diez"
+8-)configurar email en variables de configuracion de git: git config --global user.email ="ricardo.diez@troquer.com.mx"
+9-)git commit -m "Este es el primer commit del archivo"
