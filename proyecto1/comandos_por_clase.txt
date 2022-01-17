@@ -18,3 +18,6 @@ Comando utlizados en la clase de Volver en el tiempo
 14-)ver cambios con detalles: git log --stat
 15-)ir a una versión especifica de un solo archivo: git checkout cea3d0a0c42f918f2b7fcdb9cdd61c81f5600aee(ID_COMMIT) historia.txt
 16-)regresar a la versión mas actualizada de ese unico archivo: git checkout master historia.txt
+17-)sacar un archivo del area de staging: git reset HEAD historia.txt
+
+
