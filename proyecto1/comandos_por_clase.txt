@@ -20,4 +20,8 @@ Comando utlizados en la clase de Volver en el tiempo
 16-)regresar a la versión mas actualizada de ese unico archivo: git checkout master historia.txt
 17-)sacar un archivo del area de staging: git reset HEAD historia.txt
 
+Comando utilizados en la clase de branch
+18-)para crear una rama: git branch <nombre_rama>
+19-)para cambiar de rama: git checkout <nombre_rama>
+20-)el apuntador HEAD indica los ultimos cambios de la rama donde estas ubicado
 
