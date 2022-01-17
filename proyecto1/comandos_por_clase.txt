@@ -16,3 +16,5 @@ Comandos Utilizados en la primera clase
 Comando utlizados en la clase de Volver en el tiempo
 13-)comando para volver en el tiempo (un commit en esepecifico): git reset ID_COMMIT --hard(--soft)
 14-)ver cambios con detalles: git log --stat
+15-)ir a una versión especifica de un solo archivo: git checkout cea3d0a0c42f918f2b7fcdb9cdd61c81f5600aee(ID_COMMIT) historia.txt
+16-)regresar a la versión mas actualizada de ese unico archivo: git checkout master historia.txt
