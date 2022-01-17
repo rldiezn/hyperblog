@@ -12,4 +12,7 @@ Comandos Utilizados en la primera clase
 10-)para agregar todos los archivos al stage: git add .  o  git add -A
 11-)para ver los cambios de un archivo: git log historia.txt
 12-)comando para ver cambios de un archivo detallado: git log --follow -p -- historia.txt
+
+Comando utlizados en la clase de Volver en el tiempo
 13-)comando para volver en el tiempo (un commit en esepecifico): git reset ID_COMMIT --hard(--soft)
+14-)ver cambios con detalles: git log --stat
