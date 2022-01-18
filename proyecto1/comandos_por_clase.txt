@@ -25,3 +25,7 @@ Comando utilizados en la clase de branch
 19-)para cambiar de rama: git checkout <nombre_rama>
 20-)el apuntador HEAD indica los ultimos cambios de la rama donde estas ubicado
 
+Comandos utilizados en la clase de Merge
+21-)Nos movemos a la rama que queremos que reciba los cambios: git checkout master
+22-)Hacemos merge en este caso de master con cabecera: git merge cabecera
+
