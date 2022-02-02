@@ -29,3 +29,7 @@ Comandos utilizados en la clase de Merge
 21-)Nos movemos a la rama que queremos que reciba los cambios: git checkout master
 22-)Hacemos merge en este caso de master con cabecera: git merge cabecera
 
+Comandos utilizados en la clase para conectar mi llave publica con GitHub
+23-)Para checar las conexiones remotas del repositorio: git remote -v
+24-)Para cambiar la conexion https por la conexion ssh: git remote set-url origin git@github.com:rldiezn/hyperblog.git
+
