@@ -48,3 +48,6 @@ EXTRA 2: para agregar alias en git : git config --global alias.superlog "log --g
 32-)Para borrar un tag: git tag -d (nombreDelTag)
 33-)Para borrar un tag en remoto:git push origin :refs/tags/nombreDelTag
 
+Comandos para la clase de fork con github
+34-)Para poder hacer pull del repositorio donde hiciste fork, es necesario agregar el origen remoto con una palabra distinta a la de origin, el estandar recomendado es usar upstream: git remote add upstream git@github.com:platzy/hyperblog.git
+
