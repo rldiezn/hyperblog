@@ -82,3 +82,24 @@ Consideraciones:
 El cambio más reciente (al crear un stash) SIEMPRE recibe el valor 0 y los que estaban antes aumentan su valor.
 Al crear un stash tomará los archivos que han sido modificados y eliminados. Para que tome un archivo creado es necesario agregarlo al Staging Area con git add [nombre_archivo] con la intención de que git tenga un seguimiento de ese archivo, o también utilizando el comando git stash -u.
 Al aplicar un stash este no se elimina, es buena práctica eliminarlo.
+
+Clase de git clean
+52-)Para saber qué archivos vamos a borrar tecleamos: git clean --dry-run
+53-)Para borrar todos los archivos listados (que no son carpetas) tecleamos: git clean -f
+54-)Para borrar todos los archivos listados y carpetas: git clean -df
+
+Clase de git cherry
+55-)Para agregar el commit de una rama en otra: git cherry-pick IDCommit
+
+Clase de Git amend
+56-)para agregar cambios al ultimo commit: git commit --amend
+
+Clase de Git Reset y Reflog: úsese en caso de emergencia
+57-)Git nunca olvida, para generar log que mantiene todos los cambios a pesar de que hayas borrado alguna rama :git reflog
+58-)git reset --soft HashDelHEAD te mantiene lo que tengas en staging ahí.
+59-)git reset --hard HashDelHEAD resetea absolutamente todo incluyendo lo que tengas en staging.
+
+Clase de Buscar en archivos y commits de Git con Grep y log
+60-)Con git grep -n color nos saldrá un output el cual nos dirá en qué línea está lo que estamos buscando.
+61-)Con git grep -c color nos saldrá un output el cual nos dirá cuántas veces se repite esa palabra y en qué archivo.
+62-)Para buscar en los commit: git log -S “cabecera” --> cuantas veces use la palabra cabecera en todos los commits.
